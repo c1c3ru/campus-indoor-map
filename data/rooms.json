@@ -1,0 +1,707 @@
+[
+  {
+    "id": "recepcao-geral",
+    "name": "Recepção Geral / Portaria",
+    "center": [
+      -5.2,
+      20.2
+    ],
+    "size": [
+      9.6,
+      10.0
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "controle-acesso",
+    "name": "Controle de Acesso Alunos",
+    "center": [
+      -5.2,
+      1.6
+    ],
+    "size": [
+      9.6,
+      5.0
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "suporte-ti",
+    "name": "Suporte TI",
+    "center": [
+      17.4,
+      2.4
+    ],
+    "size": [
+      9.5,
+      6.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "deposito-ti",
+    "name": "Depósito TI",
+    "center": [
+      8.9,
+      4.2
+    ],
+    "size": [
+      6.5,
+      2.7
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "controle-academico",
+    "name": "Controle Acadêmico",
+    "center": [
+      9.7,
+      11.8
+    ],
+    "size": [
+      6.0,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "estagios",
+    "name": "Estágios",
+    "center": [
+      19.8,
+      11.8
+    ],
+    "size": [
+      6.0,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "reuniao",
+    "name": "Reunião",
+    "center": [
+      24.1,
+      2.4
+    ],
+    "size": [
+      2.8,
+      6.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "wc-terreo",
+    "name": "WC",
+    "center": [
+      30.9,
+      2.4
+    ],
+    "size": [
+      9.9,
+      6.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "pedagogia",
+    "name": "Pedagogia",
+    "center": [
+      39.6,
+      2.4
+    ],
+    "size": [
+      6.1,
+      6.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "mestrado",
+    "name": "Sala do Mestrado",
+    "center": [
+      44.5,
+      2.4
+    ],
+    "size": [
+      2.5,
+      6.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "coordenacao-extensao",
+    "name": "Coordenação de Extensão",
+    "center": [
+      25.0,
+      11.8
+    ],
+    "size": [
+      3.2,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "departamento-extensao",
+    "name": "Departamento de Extensão",
+    "center": [
+      29.6,
+      11.8
+    ],
+    "size": [
+      5.3,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "psicologia",
+    "name": "Psicologia",
+    "center": [
+      36.0,
+      11.8
+    ],
+    "size": [
+      6.8,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "servico-social",
+    "name": "Serviço Social",
+    "center": [
+      42.9,
+      11.8
+    ],
+    "size": [
+      6.0,
+      6.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "videoconferencia",
+    "name": "Videoconferência",
+    "center": [
+      54.4,
+      15.3
+    ],
+    "size": [
+      15.8,
+      13.2
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "patrimonio",
+    "name": "Patrimônio / Almoxarifado",
+    "center": [
+      49.8,
+      -2.6
+    ],
+    "size": [
+      6.5,
+      16.4
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "aquisicao-compras",
+    "name": "Aquisição / Compras",
+    "center": [
+      58.9,
+      3.5
+    ],
+    "size": [
+      6.3,
+      8.7
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "financeiro-1",
+    "name": "Financeiro 1",
+    "center": [
+      58.9,
+      -3.6
+    ],
+    "size": [
+      6.3,
+      4.7
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "financeiro-2",
+    "name": "Financeiro 2",
+    "center": [
+      58.9,
+      -8.6
+    ],
+    "size": [
+      6.3,
+      4.5
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "controle-servico",
+    "name": "Controle Acesso Serviço",
+    "center": [
+      60.0,
+      -13.9
+    ],
+    "size": [
+      5.1,
+      4.9
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "departamento-administrativo",
+    "name": "Departamento Administrativo",
+    "center": [
+      60.0,
+      -19.1
+    ],
+    "size": [
+      5.1,
+      4.3
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "vestiario-masculino",
+    "name": "WC / Vestiário Masculino",
+    "center": [
+      49.8,
+      -13.9
+    ],
+    "size": [
+      6.5,
+      4.9
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "vestiario-feminino",
+    "name": "WC / Vestiário Feminino",
+    "center": [
+      49.8,
+      -19.0
+    ],
+    "size": [
+      6.5,
+      4.8
+    ],
+    "color": "#52b9a1",
+    "area": "administracao",
+    "rotation": 0
+  },
+  {
+    "id": "auditorio",
+    "name": "Auditório",
+    "center": [
+      -42.0,
+      -2.7
+    ],
+    "size": [
+      22.0,
+      13.0
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "leitura",
+    "name": "Biblioteca / Leitura",
+    "center": [
+      -32.1,
+      -13.0
+    ],
+    "size": [
+      25.5,
+      12.5
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "estudo-individual",
+    "name": "Estudo Individual",
+    "center": [
+      -26.5,
+      -21.1
+    ],
+    "size": [
+      6.7,
+      5.5
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "gabinetes",
+    "name": "Gabinetes",
+    "center": [
+      -23.2,
+      -17.0
+    ],
+    "size": [
+      4.8,
+      4.9
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "guarda-volumes",
+    "name": "Guarda-volumes",
+    "center": [
+      -22.4,
+      -2.7
+    ],
+    "size": [
+      7.6,
+      4.2
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "foyer",
+    "name": "Foyer",
+    "center": [
+      -30.6,
+      4.6
+    ],
+    "size": [
+      17.4,
+      5.5
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "hall-acesso",
+    "name": "Hall de Acesso",
+    "center": [
+      -15.4,
+      -8.2
+    ],
+    "size": [
+      6.0,
+      5.0
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0.785398
+  },
+  {
+    "id": "saguao-exposicoes",
+    "name": "Saguão de Exposições",
+    "center": [
+      -17.2,
+      10.0
+    ],
+    "size": [
+      12.6,
+      9.8
+    ],
+    "color": "#71a9df",
+    "area": "biblioteca",
+    "rotation": 0
+  },
+  {
+    "id": "area-espera",
+    "name": "Área de espera",
+    "center": [
+      -9.0,
+      -10.0
+    ],
+    "size": [
+      8.0,
+      6.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "chefia-administracao",
+    "name": "Chefia Administração",
+    "center": [
+      -9.0,
+      -1.5
+    ],
+    "size": [
+      8.0,
+      5.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "sala-reunioes",
+    "name": "Sala de Reuniões",
+    "center": [
+      -9.0,
+      6.8
+    ],
+    "size": [
+      8.0,
+      10.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "administracao-ensino",
+    "name": "Administração de Ensino",
+    "center": [
+      3.0,
+      0.0
+    ],
+    "size": [
+      9.0,
+      7.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "reprografia",
+    "name": "Reprografia",
+    "center": [
+      3.0,
+      6.0
+    ],
+    "size": [
+      9.0,
+      4.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "contabilidade",
+    "name": "Contabilidade",
+    "center": [
+      3.0,
+      12.0
+    ],
+    "size": [
+      9.0,
+      7.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "diretoria",
+    "name": "Diretoria",
+    "center": [
+      -9.0,
+      20.0
+    ],
+    "size": [
+      8.0,
+      12.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "recepcao-diretoria",
+    "name": "Recepção da Diretoria",
+    "center": [
+      -9.0,
+      29.0
+    ],
+    "size": [
+      8.0,
+      5.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "assessoria-documentos",
+    "name": "Assessoria / Produção de Documentos",
+    "center": [
+      -9.0,
+      37.2
+    ],
+    "size": [
+      8.0,
+      10.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "gestao-pessoas",
+    "name": "Gestão de Pessoas",
+    "center": [
+      3.0,
+      18.3
+    ],
+    "size": [
+      9.0,
+      4.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "wc-feminino",
+    "name": "WC Feminino",
+    "center": [
+      3.0,
+      23.9
+    ],
+    "size": [
+      9.0,
+      6.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "copa",
+    "name": "Copa",
+    "center": [
+      5.0,
+      29.6
+    ],
+    "size": [
+      5.0,
+      4.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "wc-adaptado",
+    "name": "WC Adaptado",
+    "center": [
+      0.3,
+      32.1
+    ],
+    "size": [
+      3.5,
+      4.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "dml",
+    "name": "DML",
+    "center": [
+      5.0,
+      34.0
+    ],
+    "size": [
+      5.0,
+      4.0
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "wc-masculino",
+    "name": "WC Masculino",
+    "center": [
+      3.0,
+      39.2
+    ],
+    "size": [
+      9.0,
+      5.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  },
+  {
+    "id": "convivencia",
+    "name": "Área de Convivência",
+    "center": [
+      3.0,
+      44.0
+    ],
+    "size": [
+      9.0,
+      3.5
+    ],
+    "color": "#ad9bd4",
+    "area": "complementar",
+    "rotation": 0
+  }
+]
