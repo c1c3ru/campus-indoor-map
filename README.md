@@ -2,9 +2,12 @@
 
 Componente base Next.js / React Three Fiber, com 47 setores derivados das plantas fornecidas. Geometria demonstrativa: não é levantamento arquitetônico e não deve orientar rotas de emergência.
 
-## Executar
+## Requisitos
 
-Node.js 22 ou superior.
+- Node.js 22 ou superior (usa `npm ci`, então precisa do `package-lock.json`).
+- Não há variáveis de ambiente, banco de dados ou serviço externo — o app é 100% estático/local.
+
+## Desenvolvimento
 
 ```sh
 npm ci
@@ -13,13 +16,25 @@ npm run dev
 
 Abra `http://localhost:3000/?local=suporte-ti`. Outros exemplos: `?local=auditorio`, `?local=diretoria` e `?local=controle-academico`.
 
+## Build e verificação de tipos
+
 ```sh
-npm run model:generate  # reconstrói public/models/campus-test.glb
+npm run model:generate  # reconstrói public/models/campus-test.glb a partir de data/rooms.json
 npm run typecheck
-npm run build
-npx playwright install chromium
-npm test               # inicia o servidor de produção e testa o navegador
+npm run build            # next build --webpack (o projeto força Webpack, não Turbopack)
 ```
+
+`public/models/campus-test.glb` é gerado por `scripts/generate-model.mjs`, mas fica versionado no repositório. Sempre que `data/rooms.json` ou o script mudarem, rode `npm run model:generate` de novo e comite o `.glb` atualizado — o workflow `.github/workflows/validate.yml` roda `git diff --exit-code` sobre esse arquivo e falha se ele ficar desatualizado.
+
+## Testes end-to-end (Playwright)
+
+```sh
+npx playwright install chromium   # baixa o Chromium usado pelos testes
+npm test                          # builda/inicia o servidor de produção e roda os testes no navegador
+```
+
+- Sem acesso à internet para baixar o navegador (ex.: CI/sandbox restrita), defina `CAMPUS_CHROMIUM_PATH` apontando para um binário de Chromium/Chrome já instalado; `playwright.config.ts` usa essa variável como `executablePath` em vez de baixar um novo.
+- Problema conhecido: o app não define favicon, então o navegador recebe um 404 de `/favicon.ico`. Isso é inofensivo, mas faz o primeiro teste (`tests/campus.spec.ts`, que espera zero erros de console) falhar; adicionar um favicon em `app/` resolve.
 
 ## Integração
 
