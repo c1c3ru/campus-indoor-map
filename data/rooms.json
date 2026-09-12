@@ -8,11 +8,12 @@
     ],
     "size": [
       9.6,
-      10.0
+      10
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "controle-acesso",
@@ -23,11 +24,12 @@
     ],
     "size": [
       9.6,
-      5.0
+      5
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "suporte-ti",
@@ -41,8 +43,9 @@
       6.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "deposito-ti",
@@ -56,8 +59,9 @@
       2.7
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "controle-academico",
@@ -67,12 +71,13 @@
       11.8
     ],
     "size": [
-      6.0,
+      6,
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "estagios",
@@ -82,12 +87,13 @@
       11.8
     ],
     "size": [
-      6.0,
+      6,
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "reuniao",
@@ -101,8 +107,9 @@
       6.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "wc-terreo",
@@ -116,8 +123,9 @@
       6.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "pedagogia",
@@ -131,8 +139,9 @@
       6.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "mestrado",
@@ -146,14 +155,15 @@
       6.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "coordenacao-extensao",
     "name": "Coordenação de Extensão",
     "center": [
-      25.0,
+      25,
       11.8
     ],
     "size": [
@@ -161,8 +171,9 @@
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "departamento-extensao",
@@ -176,14 +187,15 @@
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "psicologia",
     "name": "Psicologia",
     "center": [
-      36.0,
+      36,
       11.8
     ],
     "size": [
@@ -191,8 +203,9 @@
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "servico-social",
@@ -202,12 +215,13 @@
       11.8
     ],
     "size": [
-      6.0,
+      6,
       6.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "videoconferencia",
@@ -221,8 +235,9 @@
       13.2
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "patrimonio",
@@ -236,8 +251,9 @@
       16.4
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "aquisicao-compras",
@@ -251,8 +267,9 @@
       8.7
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "financeiro-1",
@@ -266,8 +283,9 @@
       4.7
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "financeiro-2",
@@ -281,14 +299,15 @@
       4.5
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "controle-servico",
     "name": "Controle Acesso Serviço",
     "center": [
-      60.0,
+      60,
       -13.9
     ],
     "size": [
@@ -296,14 +315,15 @@
       4.9
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "departamento-administrativo",
     "name": "Departamento Administrativo",
     "center": [
-      60.0,
+      60,
       -19.1
     ],
     "size": [
@@ -311,8 +331,9 @@
       4.3
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "vestiario-masculino",
@@ -326,53 +347,57 @@
       4.9
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "vestiario-feminino",
     "name": "WC / Vestiário Feminino",
     "center": [
       49.8,
-      -19.0
+      -19
     ],
     "size": [
       6.5,
       4.8
     ],
     "color": "#52b9a1",
-    "area": "administracao",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "administracao",
+    "andar": "terreo"
   },
   {
     "id": "auditorio",
     "name": "Auditório",
     "center": [
-      -42.0,
+      -42,
       -2.7
     ],
     "size": [
-      22.0,
-      13.0
+      22,
+      13
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "leitura",
     "name": "Biblioteca / Leitura",
     "center": [
       -32.1,
-      -13.0
+      -13
     ],
     "size": [
       25.5,
       12.5
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "estudo-individual",
@@ -386,23 +411,25 @@
       5.5
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "gabinetes",
     "name": "Gabinetes",
     "center": [
       -23.2,
-      -17.0
+      -17
     ],
     "size": [
       4.8,
       4.9
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "guarda-volumes",
@@ -416,8 +443,9 @@
       4.2
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "foyer",
@@ -431,8 +459,9 @@
       5.5
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "hall-acesso",
@@ -442,207 +471,221 @@
       -8.2
     ],
     "size": [
-      6.0,
-      5.0
+      6,
+      5
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0.785398
+    "rotation": 0.785398,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "saguao-exposicoes",
     "name": "Saguão de Exposições",
     "center": [
       -17.2,
-      10.0
+      10
     ],
     "size": [
       12.6,
       9.8
     ],
     "color": "#71a9df",
-    "area": "biblioteca",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "biblioteca",
+    "andar": "terreo"
   },
   {
     "id": "area-espera",
     "name": "Área de espera",
     "center": [
-      -9.0,
-      -10.0
+      -9,
+      -10
     ],
     "size": [
-      8.0,
+      8,
       6.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "chefia-administracao",
     "name": "Chefia Administração",
     "center": [
-      -9.0,
+      -9,
       -1.5
     ],
     "size": [
-      8.0,
-      5.0
+      8,
+      5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "sala-reunioes",
     "name": "Sala de Reuniões",
     "center": [
-      -9.0,
+      -9,
       6.8
     ],
     "size": [
-      8.0,
+      8,
       10.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "administracao-ensino",
     "name": "Administração de Ensino",
     "center": [
-      3.0,
-      0.0
+      3,
+      0
     ],
     "size": [
-      9.0,
+      9,
       7.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "reprografia",
     "name": "Reprografia",
     "center": [
-      3.0,
-      6.0
+      3,
+      6
     ],
     "size": [
-      9.0,
-      4.0
+      9,
+      4
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "contabilidade",
     "name": "Contabilidade",
     "center": [
-      3.0,
-      12.0
+      3,
+      12
     ],
     "size": [
-      9.0,
+      9,
       7.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "diretoria",
     "name": "Diretoria",
     "center": [
-      -9.0,
-      20.0
+      -9,
+      20
     ],
     "size": [
-      8.0,
-      12.0
+      8,
+      12
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "recepcao-diretoria",
     "name": "Recepção da Diretoria",
     "center": [
-      -9.0,
-      29.0
+      -9,
+      29
     ],
     "size": [
-      8.0,
-      5.0
+      8,
+      5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "assessoria-documentos",
     "name": "Assessoria / Produção de Documentos",
     "center": [
-      -9.0,
+      -9,
       37.2
     ],
     "size": [
-      8.0,
+      8,
       10.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "gestao-pessoas",
     "name": "Gestão de Pessoas",
     "center": [
-      3.0,
+      3,
       18.3
     ],
     "size": [
-      9.0,
-      4.0
+      9,
+      4
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "wc-feminino",
     "name": "WC Feminino",
     "center": [
-      3.0,
+      3,
       23.9
     ],
     "size": [
-      9.0,
-      6.0
+      9,
+      6
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "copa",
     "name": "Copa",
     "center": [
-      5.0,
+      5,
       29.6
     ],
     "size": [
-      5.0,
+      5,
       4.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "wc-adaptado",
@@ -656,52 +699,152 @@
       4.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "dml",
     "name": "DML",
     "center": [
-      5.0,
-      34.0
+      5,
+      34
     ],
     "size": [
-      5.0,
-      4.0
+      5,
+      4
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "wc-masculino",
     "name": "WC Masculino",
     "center": [
-      3.0,
+      3,
       39.2
     ],
     "size": [
-      9.0,
+      9,
       5.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
-    "rotation": 0
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
   },
   {
     "id": "convivencia",
     "name": "Área de Convivência",
     "center": [
-      3.0,
-      44.0
+      3,
+      44
     ],
     "size": [
-      9.0,
+      9,
       3.5
     ],
     "color": "#ad9bd4",
-    "area": "complementar",
+    "rotation": 0,
+    "bloco": "complementar",
+    "andar": "terreo"
+  },
+  {
+    "id": "sala-professores",
+    "name": "Sala dos Professores",
+    "center": [
+      -5.2,
+      11
+    ],
+    "size": [
+      9.6,
+      26
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
+    "rotation": 0
+  },
+  {
+    "id": "coordenacao-a",
+    "name": "Coordenação de Curso A",
+    "center": [
+      9.7,
+      7
+    ],
+    "size": [
+      6,
+      14
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
+    "rotation": 0
+  },
+  {
+    "id": "coordenacao-b",
+    "name": "Coordenação de Curso B",
+    "center": [
+      19.8,
+      7
+    ],
+    "size": [
+      6,
+      14
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
+    "rotation": 0
+  },
+  {
+    "id": "sala-reunioes-andar1",
+    "name": "Sala de Reuniões (1º Andar)",
+    "center": [
+      27.7,
+      7.2
+    ],
+    "size": [
+      8.4,
+      14.4
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
+    "rotation": 0
+  },
+  {
+    "id": "laboratorio-informatica",
+    "name": "Laboratório de Informática",
+    "center": [
+      39.6,
+      7.2
+    ],
+    "size": [
+      14.6,
+      14.4
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
+    "rotation": 0
+  },
+  {
+    "id": "wc-andar1",
+    "name": "WC (1º Andar)",
+    "center": [
+      49.8,
+      7.2
+    ],
+    "size": [
+      6.5,
+      14.4
+    ],
+    "color": "#3f8f78",
+    "bloco": "administracao",
+    "andar": "andar1",
     "rotation": 0
   }
 ]

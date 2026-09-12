@@ -70,3 +70,32 @@ test('mobile viewport and reduced motion',async ({page})=>{
  await expect(page.locator('.map-panel')).toHaveAttribute('data-focused','suporte-ti');
  expect(await page.evaluate(()=>document.documentElement.scrollWidth)).toBeLessThanOrEqual(390);
 });
+
+test('HUD floor toggle swaps geometry, reframes the camera and hides for single-floor blocks', async ({ page }) => {
+ await page.goto('/');
+ const panel = page.locator('.map-panel');
+ const hud = page.locator('.map-hud');
+ await expect(panel).toHaveAttribute('data-focused', 'overview');
+ await expect(page.getByRole('button', { name: 'Suporte TI', exact: true })).toBeVisible();
+ const terreo = await page.locator('canvas').screenshot();
+ // The floor pills must not block canvas pan/zoom outside their own footprint.
+ await expect(hud).toHaveCSS('pointer-events', 'none');
+ await hud.getByRole('group', { name: 'Selecionar andar' }).getByRole('button', { name: '1º Andar' }).click();
+ await expect(panel).toHaveAttribute('data-focused', '');
+ await expect(panel).toHaveAttribute('data-focused', 'overview');
+ await expect(page.getByRole('button', { name: 'Suporte TI', exact: true })).toHaveCount(0);
+ await expect(page.getByRole('button', { name: 'Sala dos Professores', exact: true })).toBeVisible();
+ expect(Buffer.compare(terreo, await page.locator('canvas').screenshot())).not.toBe(0);
+ await hud.getByRole('group', { name: 'Selecionar bloco' }).getByRole('button', { name: 'Biblioteca e Auditório' }).click();
+ await expect(page.locator('#area')).toHaveValue('biblioteca');
+ await expect(hud.getByRole('group', { name: 'Selecionar andar' })).toHaveCount(0);
+});
+
+test('switching floor clears a selection that belongs to the other floor', async ({ page }) => {
+ await page.goto('/?local=suporte-ti');
+ const panel = page.locator('.map-panel');
+ await expect(panel).toHaveAttribute('data-focused', 'suporte-ti');
+ await page.locator('.map-hud').getByRole('group', { name: 'Selecionar andar' }).getByRole('button', { name: '1º Andar' }).click();
+ await expect(page).not.toHaveURL(/local=suporte-ti/);
+ await expect(page.getByRole('status').first()).toContainText('Visão geral');
+});
