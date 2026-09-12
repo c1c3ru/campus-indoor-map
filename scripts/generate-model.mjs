@@ -6,17 +6,20 @@ const chunks = [geometry.attributes.position.array, geometry.attributes.normal.a
 let offset=0;
 const views=chunks.map((chunk,i)=>{const view={buffer:0,byteOffset:offset,byteLength:chunk.length,target:i===2?34963:34962};offset+=chunk.length;return view;});
 const nodes=[];
-let area='administracao';
-function box(name,position,scale,roomId) { nodes.push({ name,mesh:0,translation:position,scale,extras:{area,...(roomId?{roomId}:{})} }); }
+// Vertical gap between floor slabs; keeps a stacked upper floor clear of ground-floor walls.
+const FLOOR_HEIGHT=3.4;
+let bloco='administracao',andar='terreo';
+function box(name,position,scale,roomId) { nodes.push({ name,mesh:0,translation:position,scale,extras:{bloco,andar,...(roomId?{roomId}:{})} }); }
 
 // Floors are interactive; short walls leave the indoor spaces visible.
-for(const room of rooms){area=room.area; const start=nodes.length; const [x,z]=room.center,[w,d]=room.size;
-box(room.id,[x,0,z],[w,.22,d],room.id);
-box(room.id+'-north',[x,.6,z-d/2],[w,1.2,.12]);
-box(room.id+'-west',[x-w/2,.6,z],[.12,1.2,d]);
-box(room.id+'-east',[x+w/2,.6,z],[.12,1.2,d]);
+for(const room of rooms){bloco=room.bloco;andar=room.andar??'terreo'; const start=nodes.length; const [x,z]=room.center,[w,d]=room.size;
+const y=andar==='andar1'?FLOOR_HEIGHT:0;
+box(room.id,[x,y,z],[w,.22,d],room.id);
+box(room.id+'-north',[x,y+.6,z-d/2],[w,1.2,.12]);
+box(room.id+'-west',[x-w/2,y+.6,z],[.12,1.2,d]);
+box(room.id+'-east',[x+w/2,y+.6,z],[.12,1.2,d]);
 // South wall has a central doorway.
-for(const sign of [-1,1])box(room.id+'-door-'+sign,[x+sign*(w/4+.4),.6,z+d/2],[w/2-.8,1.2,.12]);
+for(const sign of [-1,1])box(room.id+'-door-'+sign,[x+sign*(w/4+.4),y+.6,z+d/2],[w/2-.8,1.2,.12]);
 for(const node of nodes.slice(start)) { const a=room.rotation; const dx=node.translation[0]-x,dz=node.translation[2]-z;
 node.translation[0]=x+dx*Math.cos(a)+dz*Math.sin(a);node.translation[2]=z-dx*Math.sin(a)+dz*Math.cos(a);
 node.rotation=[0,Math.sin(a/2),0,Math.cos(a/2)]; }
